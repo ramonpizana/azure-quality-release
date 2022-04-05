@@ -1,2 +1,8 @@
 terraform/*.terraform
 terraform/terraform.tfvars
+
+terraform.tfvars
+scripts.sh
+scriptSP.sh
+setvars.sh
+storage.sh
