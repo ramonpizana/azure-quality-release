@@ -14,6 +14,6 @@ backend "azurerm" {
     storage_account_name = "tstate15137"
     container_name       = "tstate-act5"
     key                  = "terraform.tfstate"
-    access_key           = "n5Sp72zqCzaOOWI1NQ3LUMzouLZfr+gmhc6/jgBEJyU40hR/zz1+Kg1MRMMAjcRNQQDhLnGVKTNpfbKhOfgHMg=="
+    //access_key           = ""
   }
 }
