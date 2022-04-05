@@ -8,8 +8,7 @@ required_version = ">=0.12"
     }
 
   }
-
-backend "azurerm" {
+  backend "azurerm" {
     resource_group_name  = "rg-terraform"
     storage_account_name = "tstate15137"
     container_name       = "tstate-act5"
