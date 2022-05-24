@@ -20,7 +20,7 @@ resource "azurerm_linux_virtual_machine" "myvm" {
   network_interface_ids = [azurerm_network_interface.nic.id]
   admin_ssh_key {
     username   = "azureuser"
-    public_key = file("~/.ssh/id_rsa.pub")
+    public_key = file("~/.ssh/Vmkey.pub")
   }
   os_disk {
     caching           = "ReadWrite"
